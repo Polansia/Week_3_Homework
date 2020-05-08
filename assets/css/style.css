@@ -1,0 +1,23 @@
+.textbox{
+    width:80%
+}
+
+.layout {
+
+    text-align:center
+}
+.header{
+  padding: 20px;
+  margin: 50px;
+  background-color: crimson;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80px;
+  line-height: 150%;
+  text-align:center
+  
+}
+.button{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+}
