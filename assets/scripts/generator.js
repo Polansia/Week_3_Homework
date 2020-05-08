@@ -1,4 +1,7 @@
-function generate(length = prompt("How long do you want your password?")){
+function generate(length = prompt("How long do you want your password?"))
+
+    {
+
     if (length > 128){
         alert ("You Password cannot be longer than 128 Characters")
         return;
@@ -12,6 +15,7 @@ function generate(length = prompt("How long do you want your password?")){
         alert ("Your Length needs to be a valid number")
         return;
     }
+
     var uppercase 
     var lowercase
     var numbers
@@ -23,37 +27,43 @@ function generate(length = prompt("How long do you want your password?")){
     
     
     if (upperconfirm) {
-    var uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        var uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     }
 
     else {
-    var uppercase = '';
+        var uppercase = '';
     }
 
+
+    
     if (lowercongirm) {
-    var lowercase = 'abcdefghijklmnopqrstuvwxyz';
+        var lowercase = 'abcdefghijklmnopqrstuvwxyz';
     }
 
     else {
-    var lowercase = '';
+        var lowercase = '';
     }
+
+
 
     if (numbersconfirm) {
-    var numbers = '0123456789';
+        var numbers = '0123456789';
     }
 
     else {
-    var numbers = '';
+        var numbers = '';
     }
 
+
+
     if (symbolscongirm) {
-    var symbols = '!"#$%&\'()*+,-./:;<=>?@^[\\]^_`{|}~';
-  }
+        var symbols = '!"#$%&\'()*+,-./:;<=>?@^[\\]^_`{|}~';
+    }
 
-  else {
-    var symbols = '';
-  }
-
+    else {
+        var symbols = '';
+    }
+ 
 
     var all = uppercase + lowercase + numbers + symbols;
 

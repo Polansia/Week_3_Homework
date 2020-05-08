@@ -2,6 +2,7 @@
 <html lang="en">
     
 <head>
+
 	<meta charset="UTF-8">
 	<title>Password Generator</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -9,26 +10,39 @@
     <script src="./assets/scripts/generator.js"></script>
     
 	<script>
-		window.onload = function (){
-			var generateButton = document.querySelector('#generate');
-			generateButton.addEventListener('click', function(){				
-                document.querySelector('#password').value = generate();
-                
-			});
+
+		window.onload = function ()
+
+		{
+			var button = document.querySelector('#generate');
+			button.addEventListener('click', function()
+			    {	
+
+				document.querySelector('#password').value = generate();
+				
+				})
+
 		}
+
     </script>	    
     
 </head>
-<h1 class="header">
+
+<header class="header">
     
     Password Generator
 
-</h1>
+</header>
+
 <body>
-	<div class="layout">
+
+	<main class="layout">
+
         <input class ="textbox" id="password" type="text" placeholder="Your password...">
-        <button class="btn btn-primary btn-lg button" id="generate">Generate</button>
-	</div>
+		<button class="btn btn-primary btn-lg button" id="generate">Generate</button>
+		
+	</main>
+
 </body>
 
 </html>
