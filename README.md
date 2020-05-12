@@ -7,3 +7,4 @@ I also organized the directory and code to be straighforward and easily understa
 
 https://polansia.github.io/Week_3_Homework/
 
+![Generator](Generator.JPG?raw=true "Generator")
